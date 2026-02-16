@@ -4,7 +4,7 @@
 
 <p>O objetivo deste projeto é praticar conceitos de componentização em React, estilização com TailwindCSS e containerização com Docker.</p>
 
-<h2>🚀 Tecnologias utilizadas</h2>
+<h2>🚀 Tecnologias Utilizadas</h2>
 
 <p>⚛️ React 19 – Biblioteca para construção da interface</p>
 <p>🎨 TailwindCSS – Estilização rápida e responsiva</p>
@@ -17,24 +17,20 @@
    <li>Entrar na pasta do projeto => cd project_management</li>
    <li>Construir a imagem Docker => docker image build -t nome_imagem . </li>
    <li>Rodar o container => docker run -d -p 3000:3000 --name nome_container -h nome_container -v $(pwd):/app</li>
-   <li></li>
+   <li>Acessar no navegador => http://ip:3000</li>
 </ol>
 
 
-<h3>:computer: Acessar no navegador</h3>
-<p>👉 http://ip:3000</p>
-
-<h3>📝 Funcionalidades</h3>
+<h2>📝 Funcionalidades</h2>
 <ul>
    <li>➕ Adicionar novas tarefas</li>
    <li>✅ Marcar tarefas como concluídas</li>
    <li>❌ Remover tarefas</li>
+   <li>💾 Persistência em memória durante a execução</li>
+   <li>Os dados das tarefas são guardados em localStage</li>
 </ul>
 
-<h3>💾 Persistência em memória durante a execução</h3>
-<p>Os dados das tarefas são guardados em localStage</p>
-
-<h4>📂 Estrutura do projeto</h4>
+<h2>📂 Estrutura do projeto</h2>
 📦 projeto-todo<br/>
  ┣ 📂 src<br/>
  ┃ ┣ 📂 components<br/>
@@ -45,7 +41,7 @@
  ┣ 📜 Dockerfile<br/>
  ┗ 📜 README.md
 
-<h3>🤝 Contribuição</h3>
+<h2>🤝 Contribuição</h2>
 
 <p>Contribuições são bem-vindas!</p>
 <p>Faça um fork do projeto</p>
@@ -54,5 +50,5 @@
 <p>Faça push para a branch (git push origin minha-feature)</p>
 <p>Abra um Pull Request 🚀</p>
 
-<h3>📜 Licença</h3>
+<h2>📜 Licença</h2>
 <p>Este projeto está sob a licença MIT – sinta-se livre para usar e modificar.</p>
