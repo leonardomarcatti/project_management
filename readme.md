@@ -12,21 +12,19 @@
 <p>🐳 Docker – Container para isolar e rodar a aplicação</p>
 
 <h2>📦 Como rodar o projeto</h2>
-<h3>1️⃣ Clonar o repositório</h3>
-<p>git clonehttps://github.com/leonardomarcattidasilva/project_management.git</p>
-<p>cd project_management</p>
+<ol>
+   <li>Clonar o repositório => git clone https://github.com/leonardomarcattidasilva/project_management.git</li>
+   <li>Entrar na pasta do projeto => cd project_management</li>
+   <li>Construir a imagem Docker => docker image build -t nome_imagem . </li>
+   <li>Rodar o container => docker run -d -p 3000:3000 --name nome_container -h nome_container -v $(pwd):/app</li>
+   <li></li>
+</ol>
 
-<h3>2️⃣ Construir a imagem Docker</h3>
-<p>docker build -t todo-app . </p>
 
-<h3>3️⃣ Rodar o container</h3>
-<p>docker run -d -p 3000:3000 --name todo-app -h todo-app -v pasta_projeto:/my_app todo-app</p>
-
-<h3>4️⃣ Acessar no navegador</h3>
-<p>👉 http://localhost:3000</p>
+<h3>:computer: Acessar no navegador</h3>
+<p>👉 http://ip:3000</p>
 
 <h3>📝 Funcionalidades</h3>
-
 <ul>
    <li>➕ Adicionar novas tarefas</li>
    <li>✅ Marcar tarefas como concluídas</li>
@@ -46,14 +44,6 @@
  ┣ 📜 tailwind.config.js<br/>
  ┣ 📜 Dockerfile<br/>
  ┗ 📜 README.md
-
-<h3>🐳 Dockerfile usado</h3>
-<p>FROM node:latest</p>
-<p>WORKDIR /my_app</p>
-<p>COPY . . </p>
-<p>RUN npm install</p>
-<p>EXPOSE 3000</p>
-<p>CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "3000"]</p>
 
 <h3>🤝 Contribuição</h3>
 
