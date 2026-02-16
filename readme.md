@@ -37,15 +37,15 @@
 <p>Os dados das tarefas são guardados em localStage</p>
 
 <h4>📂 Estrutura do projeto</h4>
-<p>📦 projeto-todo</p>
- <p>┣ 📂 src</p>
- <p>┃ ┣ 📂 components</p>
- <p>┃ ┣ 📂 pages</p>
- <p>┃ ┗ 📜 App.jsx</p>
- <p>┣ 📜 package.json</p>
- <p>┣ 📜 tailwind.config.js</p>
- <p>┣ 📜 Dockerfile</p>
- <p>┗ 📜 README.md
+📦 projeto-todo<br/>
+ ┣ 📂 src<br/>
+ ┃ ┣ 📂 components<br/>
+ ┃ ┣ 📂 pages<br/>
+ ┃ ┗ 📜 App.jsx<br/>
+ ┣ 📜 package.json<br/>
+ ┣ 📜 tailwind.config.js<br/>
+ ┣ 📜 Dockerfile<br/>
+ ┗ 📜 README.md
 
 <h3>🐳 Dockerfile usado</h3>
 <p>FROM node:latest</p>
